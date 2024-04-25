@@ -1,0 +1,230 @@
+.mitglieder {
+    padding-top: 197.33px;
+}
+
+.mitglieder__title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 110%;
+    letter-spacing: -0.03em;
+    color: var(--red);
+}
+
+.mitglieder__p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 29px;
+    color: var(--black);
+}
+
+.mitglieder__listBtn {
+    max-width: 1480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mitglieder__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 62.02px;
+    margin-top: 42.67px;
+}
+
+.list__item {
+    border-radius: 32px;
+    padding: 21px;
+    width: 377px;
+    height: 499px;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.list__itemImg {
+    border-radius: 21px;
+    width: 334px;
+    height: 350px;
+    margin-bottom: 34.5px;
+    margin-top: 21px;
+    margin-bottom: 34.5px;
+}
+
+.list__item__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: -0.01em;
+    color: var(--black);
+    opacity: 0.7;
+}
+
+.list__item__musician {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 29px;
+    color: var(--black);
+}
+
+.list__item_rotate-left {
+    transform: rotate(-4deg);
+}
+
+.list__item_rotate-right {
+    transform: rotate(2deg);;
+}
+
+.mitglieder__btn {
+    width: 100%;
+    max-width: 585px;
+    height: 81px;
+    background: var(--red);
+    margin-top: 90.38px;
+    
+}
+
+.mitglieder__link {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.mitglieder__link p {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 29px;
+    color: var(--white);
+}
+
+
+/* Стили на разрешение 1440px */
+
+@media screen and (max-width: 1440px) {
+
+    .mitglieder {
+        padding-top: 148px;
+    }
+
+    .mitglieder__title {
+        font-size: 55px;
+    }
+
+    .mitglieder__p {
+        font-size: 22px;
+    }
+    
+    .mitglieder__list {
+        margin-top: 32px;
+        gap: 48px;
+    }
+
+    .list__item {
+        width: 283px;
+        height: 375px;
+        align-items: flex-start;
+        
+    }
+
+    .list__itemImg {
+        width: 100%;
+        height: 263px;
+        text-align: center;
+        margin-bottom: 26px;
+        justify-content: center;
+    }
+
+    .list__itemImg img {
+        width: 251px;
+        height: 263px; 
+    }
+
+    .list__item__text {
+        font-size: 13px;
+        margin-left: 16px;
+    }
+
+    .list__item__musician {
+        font-size: 22px;
+        margin-left: 16px;
+    }
+
+    .mitglieder__btn {
+        margin-top: 63.94px;
+        width: 100%;
+        max-width: 439px;
+        height: 61px;
+    }
+
+    .mitglieder__link p {
+        font-size: 22px;
+    }
+
+    .mitglieder__link img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/* Стили на разрешение 744px */
+
+@media screen and (max-width: 744px) {
+
+    .mitglieder {
+        padding-top: 96px;
+    }
+
+    .mitglieder__title {
+        font-size: 33px;
+    }
+
+    .mitglieder__p {
+        font-size: 18px;
+    }
+
+    .mitglieder__btn {
+        width: 100%;
+        max-width: 360px;
+        height: 47px;
+    }
+
+    .mitglieder__link p {
+        font-size: 18px;
+    }
+
+    .mitglieder__link img {
+        width: 15px;
+        height: 15px;
+    }
+    
+}
+
+/* Стили на разрешение 375px */
+
+@media screen and (max-width: 375px) {
+    .mitglieder {
+        padding-top: 64px;
+    }
+
+    .mitglieder__title {
+        font-size: 24px;
+    }
+
+    .mitglieder__p {
+        font-size: 14px;
+    }
+
+    .mitglieder__btn {
+        width: 274px;
+        height: 37px;
+    }
+
+    .mitglieder__link p {
+        font-size: 14px;
+    }
+}

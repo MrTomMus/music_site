@@ -1,0 +1,166 @@
+
+.programm {
+    margin-top: 197.33px;
+}
+
+.textPhoto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.foto .foto__big {
+    display: none;
+}
+
+.text {
+    border-radius: 32px;
+    max-width: 957px;
+    background: var(--white);
+    padding: 85px;
+}
+
+.text .text__title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 110%;
+    letter-spacing: -0.03em;
+    color: var(--red);
+    margin-bottom: 32px;
+    
+}
+
+.text .text__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #050f27;
+    width: 786.67px;
+    margin-bottom: 32px;
+}
+
+.text__btn {
+    width: 100%;
+    max-width: 251px;
+}
+
+/* Стили на разрешение 1440px */
+
+@media screen and (max-width: 1440px) {
+
+    .programm {
+        margin-top: 148px;
+    }
+
+    .text {
+        max-width: 718px;
+        padding: 64px 64px 32px 64px;
+    }
+
+    .text .text__title {
+        font-size: 55px;
+    }
+
+    .text .text__text {
+        width: 100%;
+        max-width: 590px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        color: #050f27;
+    }
+
+    .foto .foto__small {
+        width: 100%;
+        width: 364px;
+        height: 730px;
+    }
+
+    .contact-btn  { 
+        max-width: 189px;
+        height: 61px;
+    }
+
+    .text__btn img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Стили на разрешение 744px */
+
+@media screen and (max-width: 744px) {
+
+    .programm {
+        margin-top: 196px;
+    }
+
+    .text {
+        max-width: 642px;
+        margin-bottom: 32px;
+    }
+
+    .text .text__title {
+        font-size: 33px;
+        
+    }
+
+    .text .text__text {
+        max-width: 590px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        color: #050f27;
+    }
+
+    .text__btn {
+        margin-left: 0;
+        width: 100%;
+        max-width: 578px;
+    }
+
+    .contact-btn__text {
+        font-size: 18px;
+    }
+
+    .contact-btn  {
+        max-width: 578px;
+        height: 47px;
+    }
+
+    .text__btn img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Стили на разрешение 375px */
+
+@media screen and (max-width: 375px) {
+    .programm {
+        margin-top: 64px;
+    }
+
+    .text {
+        padding: 16px;
+    }
+
+    .text .text__title {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .text__text p {
+        font-size: 14px;
+    }
+
+    .contact-btn {
+        width: 303px;
+        height: 37px;
+    }
+
+    .contact-btn span {
+        font-size: 14px;
+    }
+}

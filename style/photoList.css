@@ -1,0 +1,110 @@
+.photo__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 154.66px;
+    justify-content: space-between;
+}
+
+.photo__list img {
+    margin-top: 42.67px;
+}
+
+.foto .verySmall {
+    display: none;
+}
+
+/* .foto .foto__small {
+    display: none;
+} */
+
+/* Стили на разрешение 1440px */
+
+@media screen and (max-width: 1440px) { 
+    .photo__list {
+        margin-top: 148px;
+    }
+
+    .photo__list img {
+        width: 348px;
+        height: 231px;
+    }
+
+   
+
+    
+}
+
+/* Стили на разрешение 1081px */
+
+@media screen and (max-width: 1081px) {
+    .textPhoto {
+        justify-content: center;
+    }
+
+    .foto .foto__big {
+        width: 100%;
+        margin-top: 20px;
+        max-width: 642px;
+        display: block;
+    }
+
+    .foto__small {
+        display: none;
+    }
+}
+
+/* Стили на разрешение 1043px */
+
+@media screen and (max-width: 1043px) {
+    .photo__list {
+        justify-content: space-around;
+    }
+}
+
+
+/* Стили на разрешение 744px */
+
+@media screen and (max-width: 744px) {
+
+    .textPhoto {
+        justify-content: center;
+    }
+
+    .foto {
+        max-width: 642px;
+    }
+
+    .foto .foto__small {
+        display: none;
+    }
+
+    .foto .foto__big {
+        max-width: 642px;
+        display: block;
+    }
+
+    .photo__list {
+        margin-top: 96px;
+    }
+
+    .photo__list img {
+        width: 305px;
+        height: 203px;
+    }
+}
+
+/* Стили на разрешение 375px */
+
+@media screen and (max-width: 375px) {
+    .foto .foto__big {
+        display: none;
+    }
+
+    .foto .verySmall {
+        display: block;
+    }
+
+    .photo__list {
+        margin-top: 12px;
+    }
+}

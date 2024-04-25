@@ -1,0 +1,8 @@
+@import url(style/common.css); /*  Общие стили для всего документа */
+@import url(style/header.css); /*  Стили блока header */
+@import url(style/mitglieder.css); /*  Стили блока mitglieder*/
+@import url(style/programm.css); /*  Стили блока programm*/
+@import url(style/photoList.css); /*  Стили блока photoList*/
+@import url(style/video.css); /*  Стили блока video*/
+@import url(style/haftungsausschluss.css); /*  Стили блока haftungsausschluss*/
+@import url(style/footer.css); /*  Стили блока footer */
