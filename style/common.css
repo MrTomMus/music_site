@@ -20,6 +20,10 @@ body { /* Основной экран */
     
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .wrapper  /* Обертка всего сайта */{
     width: 100%;
 }

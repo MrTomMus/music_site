@@ -7,7 +7,7 @@
     background-position: center;
     margin-top: 197.33px;
     padding: 85px;
-    height: 660px;
+    /* height: 660px; */
 }
 
 .haftungsausschluss h2 {
@@ -32,12 +32,31 @@
     margin-top: 15px;
 }
 
+.show {
+    display: none;
+}
+
+.show__active {
+    display: block;
+}
+
+.block__arrows {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrows__active {
+   transform: rotate(180deg);
+}
+
 /* Стили на разрешение 1440px */
 
 @media screen and (max-width: 1440px) { 
     .haftungsausschluss {
         margin-top: 148px;
-        height: 495px;
+        /* height: 495px; */
         padding: 64px;
     }
 
@@ -60,7 +79,7 @@
 @media screen and (max-width: 744px) { 
     .haftungsausschluss {
         margin-top: 96px;
-        max-height: 281px;
+        /* max-height: 281px; */
         background-image: url(/assets/BG4.svg);
         background-size: cover;
         background-position: center;
